@@ -128,7 +128,7 @@ background_label = Label(root, image=background_image)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 #Background&icon
 
-frame_file = tk.Frame(root)
+frame_file = tk.Frame(root,fg="black")
 frame_file.pack(pady=10)
 entry_file_path = tk.Entry(frame_file, width=50)
 entry_file_path.pack(side=tk.LEFT, padx=5)
